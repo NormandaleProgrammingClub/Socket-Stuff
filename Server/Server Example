@@ -9,13 +9,14 @@ import java.util.*;
 
 class Deck
 {
-    ArrayList Deck = new ArrayList(Object);
+    ArrayList Deck = new ArrayList();
     
     Deck = Card.fill;
     
     void shuffle()
     {
-      
+      Collections.shuffle(Deck);
+    }
 public class GameHost
 {
   public static void main(String[] args) throws IOException
